@@ -50,7 +50,7 @@ namespace dht11 {
      */
     //% block="DHT11 ReadFromSensor"
     //% blockId=dht11_read_from_sensor
-    export function ReadFromSensor() {
+    export function ReadFromSensor(): void {
         DTH11value=dht11_read();
     }
 
